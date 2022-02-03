@@ -55,8 +55,10 @@ function game() {
         if (playerScore > computerScore) {
                 console.log("Winner!" + playerScore + ":" + computerScore);
         }else if (playerScore < computerScore) {
-                console.log ("Loser!" + playerScore + ":" + computerScore);
-        }else return "It's a draw!" + playerScore + ":" + computerScore;
+                console.log("Loser!" + playerScore + ":" + computerScore);
+        }else {
+                console.log("It's a draw!" + playerScore + ":" + computerScore);
+        }
 
         
 }
